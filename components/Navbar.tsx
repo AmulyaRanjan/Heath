@@ -1,3 +1,6 @@
+"use client"
+
+
 import React, { useState } from 'react';
 import Link from 'next/link';
 import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword } from "firebase/auth";
@@ -93,6 +96,9 @@ const Navbar = () => {
             {isRegistered ? (
               <div className="flex items-center space-x-4">
                 <img src="/profile.png" alt="Profile" className="w-10 h-10 rounded-full object-cover" />
+                <Link href="/Appointment/Doctor_Detail">
+                    Create a Doctor
+                </Link>
                 <div onClick={handleLogout} className="cursor-pointer text-white hover:text-gray-200">Logout</div>
               </div>
             ) : (

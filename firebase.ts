@@ -3,12 +3,13 @@ import { getAuth } from "firebase/auth";
 import { getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyAd59U66q4mU47kabRHIUXWWWHC7J7v74k",
-  authDomain: "healthcare-services-cd771.firebaseapp.com",
-  projectId: "healthcare-services-cd771",
-  storageBucket: "healthcare-services-cd771.firebasestorage.app",
-  messagingSenderId: "1021238146675",
-  appId: "1:1021238146675:web:d4dcb00c4bcc90053bdc06"
+   apiKey: "AIzaSyDBFlrGEDncdpURg5WtaQTO3h0iZqUsxQY",
+  authDomain: "health-21392.firebaseapp.com",
+  projectId: "health-21392",
+  storageBucket: "health-21392.firebasestorage.app",
+  messagingSenderId: "391267333177",
+  appId: "1:391267333177:web:7af1ef085facc5d32689e8"
+ 
 };
 
 const app = initializeApp(firebaseConfig);
