@@ -1,0 +1,59 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #114a88;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: top 0.3s ease-in-out; 
+    z-index: 1000; 
+    left: 0;
+    right: 0;
+}
+
+.logo {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.search-hospital ::placeholder{
+    color: #555;
+}
+.nav-buttons {
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+}
+.search-icon {
+    width: 1.8em; 
+    height: 3em; 
+    vertical-align: middle; 
+}
+.search-nav {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+.nav-btn {
+    background-color: transparent;
+    font-weight: 500;
+    border: none;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    white-space: nowrap;
+}
+.login-btn{
+    border-radius: 5px;
+    background-color: #b5e3f5;
+    border: none;
+    color: #18255a;
+    font-weight: 500;
+    padding: 2%;
+    white-space: nowrap;
+}
+.nav-btn:hover:not(.login-btn) {
+    text-decoration: underline;
+}
